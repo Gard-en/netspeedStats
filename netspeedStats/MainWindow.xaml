@@ -9,7 +9,7 @@
     <Grid>
         <Canvas x:Name="topMenu" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="720" Background="#FF575757">
             <Label x:Name="logo" Content="Netspeed" Canvas.Left="10" Canvas.Top="6"/>
-            <Button Content="X" Canvas.Left="692" Canvas.Top="4" Width="25" Background="#FF595959" Foreground="White" BorderBrush="Black" Height="25"/>
+            <Button Content="X" Canvas.Left="692" Canvas.Top="4" Width="25" Background="#FF595959" Foreground="White" BorderBrush="Black" Height="25" Click="Button_Click"/>
         </Canvas>
         <Canvas x:Name="leftFrame" HorizontalAlignment="Left" Height="297" Margin="0,32,0,0" VerticalAlignment="Top" Width="349" Background="#FF898989">
             <Calendar Canvas.Left="10" Canvas.Top="10" Width="339"/>
